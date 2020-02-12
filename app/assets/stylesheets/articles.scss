@@ -1,0 +1,59 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  width: 100vw;
+  margin: -15px -15px;
+  border: none;
+
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.new {
+  text-align: right;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.new a {
+  text-decoration: none;
+}
+
+.articles {
+  margin-top: 50px;
+}
+
+.article-card {
+  margin: 20px 30px;
+  padding: 10px;
+  background-color: #D4F3F2;
+  // background-image: url('https://picsum.photos/200/300/?blur');
+  // object-fit: cover;
+  border-radius: 4px;
+}
+
+.article-card h2 {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.links {
+  display: flex;
+}
+
+.links p {
+  margin-left: 15px;
+}
